@@ -37,8 +37,8 @@
     height: 12px;
 }
 .imog{
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
 }
 .navigation{
     display: flex;
@@ -184,7 +184,10 @@
     flex-wrap: wrap;
     margin-right: 30px;  
 }
-
+.icom-klient{
+    width: 90px;
+    height: 90px;
+}
 .img{
     width: 270px;
     height: 80px;
@@ -209,7 +212,6 @@
     left: 215px;
     top: 1435px;
 }
-
 .Komand{
     font-style: normal;
     font-weight: bold;
@@ -249,8 +251,8 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 44px;
-    height: 44px;
+    width: 34px;
+    height: 34px;
     background-color: #FFFFFF;
     border-radius: 50%;
 }
@@ -263,7 +265,6 @@
     height: 250px;
     
 }
-
 .Client{
     font-weight: bold;
     font-size: 36px;
