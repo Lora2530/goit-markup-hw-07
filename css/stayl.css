@@ -3,7 +3,7 @@
     margin: 0;
 }
 :root {
-    -accent-color: #f3b121;
+    -accent-color: red;
     -darc-color: #000000;
     -grey-color: #212121;
     -wait-color:#FFFFFF
@@ -155,6 +155,27 @@
     list-style-type: none;
     margin-left: 30px;
 }
+.Prilog {
+    width: 370px;
+    height: 70px;
+    left: 215px;
+    top: 1435px;
+    background: rgba(47, 48, 58, 0.8);
+}
+.Prilog-list {
+    width: 189px;
+    height: 16px;
+    left: 1106px;
+    top: 1462px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;  
+}
 .list-tim{
     display: flex;
     flex-wrap: wrap;
@@ -184,8 +205,8 @@
     margin-right: 30px;  
 }
 .icom-klient{
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
 }
 .img{
     width: 270px;
