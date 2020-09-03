@@ -90,7 +90,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var (-wait-color);
+    color: #FFFFFF;
     margin-top: 200px;
 }
 .Efect{
@@ -103,7 +103,7 @@
     height: 600px;
 }
 .Zakaz{
-    color: var (-wait-color);
+    color: #FFFFFF;
     width: 200px;
     height: 50px;
     left: 415px;
@@ -184,8 +184,8 @@
     margin-right: 30px;  
 }
 .icom-klient{
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 .img{
     width: 270px;
@@ -255,7 +255,7 @@
     background-color: #FFFFFF;
     border-radius: 50%;
 }
-.social-list-pcon:hover .icon{
+.social-list-pcon:hover .icom{
     fill: var(--accent-color);
 }
 .List-klient{
