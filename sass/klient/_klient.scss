@@ -1,0 +1,94 @@
+.list-klient-logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;  
+}
+.icom-klient{
+    width: 70px;
+    height: 70px;
+}
+.img{
+    width: 270px;
+    height: 80px;
+    text-align: center;
+    background: #F5F4FA;
+    margin-left: 20px;
+}
+.list-ton{
+    padding-top: 90px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.Dodatok{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 370px;
+    height: 70px;
+    left: 215px;
+    top: 1435px;
+}
+.Komand{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $grey-color;
+    padding-bottom: 90px; 
+}
+.Pipel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: $grey-color;
+    text-align: center;
+    margin-top: 30px;
+}
+.Profession {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: center;
+    margin-top: 10px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.social-list-icon:not(:last-child){
+    margin-right: 10px;
+}
+.social-list-pcon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background-color: $wait-color;
+    border-radius: 50%;
+}
+.social-list-pcon:hover .icom{
+    fill: $accent-color;
+}
+.List-klient{
+    margin-left: 30px;
+    width: 260px; 
+    height: 250px;
+}
+.Client{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $grey-color;
+    margin-bottom: 50px;
+}

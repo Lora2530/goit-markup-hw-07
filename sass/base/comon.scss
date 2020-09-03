@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Menu{
+    display: flex;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+}
+.ig{
+    left: 65.75%;
+    right: 33.25%;
+    top: 1.16%;
+    bottom: 98.43%;
+    width: 16px;
+    height: 12px;
+}
+.igo{
+    left: 77.69%;
+    right: 21.69%;
+    top: 1.09%;
+    bottom: 98.36%;
+    width: 16px;
+    height: 12px;
+}
+.imog{
+    width: 80px;
+    height: 80px;
+}
+.navigation{
+    display: flex;
+    margin-right: auto;
+}
+.Conteiner{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 0;
+}
+.web{
+    color: #2196F3;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    width: 153px;
+    height: 31px;
+    top: 24px;
+    margin-right: 85px;
+}
