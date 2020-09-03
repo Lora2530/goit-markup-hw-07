@@ -5,7 +5,8 @@
 :root {
     -accent-color: #f3b121;
     -darc-color: #000000;
-    -grey-color: #212121
+    -grey-color: #212121;
+    -wait-color:#FFFFFF
 
 }
 .Menu{
@@ -91,7 +92,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var (-wait-color);
     margin-top: 200px;
 }
 .Efect{
@@ -104,7 +105,7 @@
     height: 600px;
 }
 .Zakaz{
-    color: #FFFFFF;
+    color: var (-wait-color);
     width: 200px;
     height: 50px;
     left: 415px;
@@ -165,10 +166,10 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-left: 10px;
-    background: #FFFFFF
+    background: var (-wait-color)
 }
 .logo{
-    lwidth: 170px;
+    width: 170px;
     height: 90px;
     left: 215px;
     top: 2493px;
@@ -263,7 +264,6 @@
     margin-left: 30px;
     width: 260px; 
     height: 250px;
-    
 }
 .Client{
     font-weight: bold;
