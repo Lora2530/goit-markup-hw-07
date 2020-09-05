@@ -20,29 +20,6 @@
   text-decoration: none;
 }
 
-.ig {
-  left: 65.75%;
-  right: 33.25%;
-  top: 1.16%;
-  bottom: 98.43%;
-  width: 16px;
-  height: 12px;
-}
-
-.igo {
-  left: 77.69%;
-  right: 21.69%;
-  top: 1.09%;
-  bottom: 98.36%;
-  width: 16px;
-  height: 12px;
-}
-
-.imog {
-  width: 80px;
-  height: 80px;
-}
-
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,12 +28,12 @@
 }
 
 .Conteiner {
-  width: 1280px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding: 20px 0;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding: 24px 0;
 }
 
 .web {
@@ -94,114 +71,79 @@
 
 .Item:hover,
 .Item:focus {
-  color: red;
+  color: #f3b121;
 }
 
-.Efect {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-top: 200px;
-}
-
-.Efect {
-  margin-bottom: 30px;
-}
-
-.hed {
-  background-image: url(../img/heder.png);
-  width: 1230px;
-  height: 600px;
-}
-
-.Zakaz {
-  color: #FFFFFF;
-  width: 200px;
-  height: 50px;
-  left: 415px;
-  top: 474px;
-  margin-left: 480px;
-}
-
-.Zakaz {
-  background-color: #2196F3;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.Item-none {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #2196F3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  text-align: center;
 }
 
-.Uslug {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  width: 260px;
-  height: 16px;
-  margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+.Vse {
+  padding-left: 400px;
+  padding-right: 10px;
 }
 
-.Ideal {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-  padding-bottom: 20px;
-  width: 260px;
-  height: 16px;
-  margin-left: 30px;
-}
-
-.Shem {
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.Chem {
+.top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.imt {
+.Posret-conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Point {
   list-style-type: none;
-  margin-left: 30px;
 }
 
-.Prilog {
-  width: 370px;
-  height: 70px;
-  left: 215px;
-  top: 1435px;
-  background: rgba(47, 48, 58, 0.8);
-}
-
-.Prilog-list {
-  width: 189px;
-  height: 16px;
-  left: 1106px;
-  top: 1462px;
-  font-style: normal;
+.Name-klass {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.Bot {
+  font-size: 16px;
+  line-height: 30px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: greenyellow;
+  color: #757575;
+}
+
+.City {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.Itom {
+  margin-top: 20px;
+}
+
+.top {
+  margin-top: 60px;
+  margin-left: 70px;
+  margin-bottom: 60px;
 }
 
 .list-tim {
@@ -210,101 +152,30 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #F5F4FA;
 }
 
-.heig {
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  background: #FFFFFF;
-  margin-left: 10px;
+.Adres {
+  background: #2F303A;
 }
 
-.logo {
-  width: 170px;
-  height: 90px;
-  left: 215px;
-  top: 2493px;
-  border: 1px solid #AFB1B8;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border-radius: 4px;
-  list-style-type: none;
-  text-align: center;
-  margin-left: 10px;
+.conte {
+  margin-top: 60px;
+  margin-left: 215px;
+  margin-bottom: 60px;
 }
 
-.list-klient-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: 30px;
+.Studio1 {
+  color: #ffff;
 }
 
-.icom-klient {
-  width: 70px;
-  height: 70px;
-}
-
-.img {
-  width: 270px;
-  height: 80px;
-  text-align: center;
-  background: #F5F4FA;
-  margin-left: 20px;
-}
-
-.list-ton {
-  padding-top: 90px;
-  display: inline-block;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.Dodatok {
+.Prin {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  width: 370px;
-  height: 70px;
-  left: 215px;
-  top: 1435px;
-}
-
-.Komand {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  padding-bottom: 90px;
-}
-
-.Pipel {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.Profession {
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  color: #757575;
-  text-align: center;
-  margin-top: 10px;
+  color: #ffff;
+  margin-right: 70px;
 }
 
 .social-icon {
@@ -331,73 +202,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 34px;
-  height: 34px;
-  background-color: #FFFFFF;
+  width: 44px;
+  height: 44px;
+  background-color: #ffff;
   border-radius: 50%;
 }
 
-.social-list-pcon:hover .icom {
-  fill: red;
-}
-
-.List-klient {
-  margin-left: 10px;
-  width: 260px;
-  height: 250px;
-}
-
-.Client {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
-}
-
-.City {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #FFFFFF;
-}
-
-.Itom {
-  margin-top: 20px;
-}
-
-.top {
-  margin-top: 60px;
-  margin-left: 70px;
-  margin-bottom: 60px;
-}
-
-.Adres {
-  background: #2F303A;
-}
-
-.conte {
-  margin-top: 60px;
-  margin-left: 215px;
-  margin-bottom: 60px;
-}
-
-.Studio1 {
-  color: #FFFFFF;
-}
-
-.Prin {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-right: 70px;
+.social-list-pcon:hover .icon {
+  fill: #f3b121;
 }
 
 .tel {
