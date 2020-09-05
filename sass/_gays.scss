@@ -1,36 +1,3 @@
-.list-klient-logo{
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 30px;  
-}
-.icom-klient{
-    width: 70px;
-    height: 70px;
-}
-.img{
-    width: 270px;
-    height: 80px;
-    text-align: center;
-    background: #F5F4FA;
-    margin-left: 20px;
-}
-.list-ton{
-    padding-top: 90px;
-    display: inline-block;
-    flex-wrap: wrap;
-}
-.Dodatok{
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    width: 370px;
-    height: 70px;
-    left: 215px;
-    top: 1435px;
-}
 .Komand{
     font-style: normal;
     font-weight: bold;
@@ -48,7 +15,7 @@
     letter-spacing: 0.03em;
     color: $grey-color;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .Profession {
     font-size: 16px;
@@ -72,14 +39,14 @@
     align-items: center;
     width: 34px;
     height: 34px;
-    background-color: $wait-color;
+    background-color: #FFFFFF;
     border-radius: 50%;
 }
 .social-list-pcon:hover .icom{
     fill: $accent-color;
 }
 .List-klient{
-    margin-left: 30px;
+    margin-left: 10px;
     width: 260px; 
     height: 250px;
 }

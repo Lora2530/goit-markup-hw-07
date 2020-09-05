@@ -1,24 +1,10 @@
-.Item:not(:last-child){
-    margin-right: 50px;
-}
-.Studio{
-    color: $darc-color;
-}
-.Stu{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: $grey-color;
-    text-decoration: none;
-}
 .Item{
     margin-right: 30px;
     list-style-type: none;
 }
 .Item:hover,
 .Item:focus{
-    color: $accent-color; 
+    color: red; 
 }
 .Efect{
     font-weight: 900;
@@ -81,7 +67,14 @@
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $grey-color;
+    color: #212121;
     padding-top: 90px;
-    padding-bottom: 50px;
+    padding-bottom: 90px;
+}
+.Chem{
+    display: flex;
+}
+.imt{
+    list-style-type: none;
+    margin-left: 30px;
 }
